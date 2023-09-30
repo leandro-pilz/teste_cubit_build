@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   _body() {
-    log('body build');
+    log('body build init');
     return Column(
       children: [
         FilledButton(onPressed: () => context.read<CubitHome>().clickSuccess(), child: const Text('Click')),
